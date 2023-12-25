@@ -2,7 +2,8 @@ from pyrogram.types import InlineKeyboardButton
 
 
 class Data:
-    generate_single_button = [InlineKeyboardButton("Click Here To Generate!", callback_data="generate")]
+    button = [InlineKeyboardButton("Click Here To Generate!", callback_data="generate")]
+
 
     START = """
 Hey {}, I can Generate Pyrogram & Telethon String Session!
