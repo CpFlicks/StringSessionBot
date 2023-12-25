@@ -1,5 +1,6 @@
 from data import Data
 from pyrogram import Client, filters
+from env import LOG_CHANNEL
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
 
