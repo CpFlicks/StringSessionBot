@@ -9,15 +9,4 @@ class Data:
 Hey {}, I can Generate Pyrogram & Telethon String Session!
     """
 
-    HELP = """
-✨ **Available Commands** ✨
-
-/help - This Message
-/generate - Generate Session
-/cancel - Cancel the process
-/restart - Cancel the process
-"""
-
-    ABOUT = """
-This String Session Generator is Created By @HeisenBerg_TG !
-    """
+    
