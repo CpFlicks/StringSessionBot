@@ -12,9 +12,12 @@ def filter(cmd: str):
 async def start(bot: Client, msg: Message):
     user = await bot.get_me()
     mention = user.mention
+    buttons = [[
+                InlineKeyboardButton("Click Here To Generate!", callback_data="generate")
+            ]]
     await bot.send_message(
         msg.chat.id,
         Data.START.format(msg.from_user.mention, mention),
-        reply_markup=InlineKeyboardMarkup(Data.button)
+        reply_markup=InlineKeyboardMarkup(buttons)
     )
 
